@@ -1,7 +1,10 @@
 ## Code Book
 
 For the provided ```UCI HAR Dataset``` vars are set from ```run_analysis.R```
-Please, refer to [README](README.md) for details
+* Please, refer to [README](README.md) for details
+* Please, refer to [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) for full details on data columns
+* Original data sourse from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 
 ### Tidy Mean
 
@@ -88,5 +91,3 @@ A data.table named `tidy` has next columns.  All units are from the original dat
 | fft_bodyBodyGyroJerkMag_mean | fBodyBodyGyroJerkMag-mean() |
 | fft_bodyBodyGyroJerkMag_std  | fBodyBodyGyroJerkMag-std()  |
 
-
-* Original data sourse from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
